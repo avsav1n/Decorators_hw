@@ -8,7 +8,7 @@ from logger import Logger
 def translate_word(word):
     url = 'https://dictionary.yandex.net/api/v1/dicservice.json/lookup'
     params = {
-    'key': 'dict.1.1.20240518T080211Z.556819bb2115b332.686ef725f65a752eb56105335da9470ae2b6ed26',
+    'key': 'yandextoken',
     'lang': 'en-ru',
     'text': word
     }
